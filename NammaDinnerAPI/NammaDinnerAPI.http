@@ -1,0 +1,6 @@
+@NammaDinnerAPI_HostAddress = http://localhost:5268
+
+GET {{NammaDinnerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

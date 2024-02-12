@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NammaDinnerAPI", "NammaDinnerAPI.csproj", "{C753CF5C-BE6A-46F6-9ABF-D7277C5E9D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NammaDinnerAPI", "NammaDinnerAPI.csproj", "{C753CF5C-BE6A-46F6-9ABF-D7277C5E9D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NammaDinner.Infrastructure", "..\NammaDinner.Infrastructure\NammaDinner.Infrastructure.csproj", "{8D5A4C77-3A56-4D90-BDAF-E0B7B2A20C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NammaDinner.Contracts", "..\NammaDinner.Contracts\NammaDinner.Contracts.csproj", "{52B108C6-9245-413B-951E-56169D826644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NammaDinner.Domain", "..\NammaDinner.Domain\NammaDinner.Domain.csproj", "{E1299428-C6FC-4294-B707-EDBE6CE94EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NammaDinner.ApplicationCore", "..\NammaDinner.ApplicationCore\NammaDinner.ApplicationCore.csproj", "{696F3340-C4FF-4F13-8267-699F71BFBD7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{C753CF5C-BE6A-46F6-9ABF-D7277C5E9D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C753CF5C-BE6A-46F6-9ABF-D7277C5E9D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C753CF5C-BE6A-46F6-9ABF-D7277C5E9D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5A4C77-3A56-4D90-BDAF-E0B7B2A20C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5A4C77-3A56-4D90-BDAF-E0B7B2A20C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5A4C77-3A56-4D90-BDAF-E0B7B2A20C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5A4C77-3A56-4D90-BDAF-E0B7B2A20C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B108C6-9245-413B-951E-56169D826644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B108C6-9245-413B-951E-56169D826644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B108C6-9245-413B-951E-56169D826644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B108C6-9245-413B-951E-56169D826644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1299428-C6FC-4294-B707-EDBE6CE94EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1299428-C6FC-4294-B707-EDBE6CE94EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1299428-C6FC-4294-B707-EDBE6CE94EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1299428-C6FC-4294-B707-EDBE6CE94EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696F3340-C4FF-4F13-8267-699F71BFBD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696F3340-C4FF-4F13-8267-699F71BFBD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696F3340-C4FF-4F13-8267-699F71BFBD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696F3340-C4FF-4F13-8267-699F71BFBD7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

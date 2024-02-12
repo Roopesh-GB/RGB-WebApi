@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
@@ -9,6 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NammaDinner.ApplicationCore\NammaDinner.ApplicationCore.csproj" />
+    <ProjectReference Include="..\NammaDinner.Contracts\NammaDinner.Contracts.csproj" />
+    <ProjectReference Include="..\NammaDinner.Infrastructure\NammaDinner.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

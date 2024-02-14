@@ -8,13 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\NammaDinner.ApplicationCore\NammaDinner.ApplicationCore.csproj" />
     <ProjectReference Include="..\NammaDinner.Contracts\NammaDinner.Contracts.csproj" />
     <ProjectReference Include="..\NammaDinner.Infrastructure\NammaDinner.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/NammaDinner.ApplicationCore/bin/Debug/net6.0
+/NammaDinner.ApplicationCore/obj
+/NammaDinner.Contracts/bin/Debug/net6.0
+/NammaDinner.Contracts/obj
+/NammaDinner.Domain/bin/Debug/net6.0
+/NammaDinner.Domain/obj
+/NammaDinner.Infrastructure/bin/Debug/net6.0
+/NammaDinner.Infrastructure/obj
+/NammaDinnerAPI/.vs
+/NammaDinnerAPI/bin/Debug
+/NammaDinnerAPI/obj
+/.vs

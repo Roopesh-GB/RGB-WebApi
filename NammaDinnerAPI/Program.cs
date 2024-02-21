@@ -1,3 +1,4 @@
+using NammaDinner.ApplicationCore.Services.Authentication;
 using NammaDinnerAPI.Helper;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
     {
         options.JsonSerializerOptions.Converters.Add(new DateOnlyJsonConverter());
     });
+
+    builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 }
 
 

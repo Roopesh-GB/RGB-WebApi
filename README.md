@@ -1,2 +1,2 @@
 # RGB-WebApi
-Trying it out..
+Creating WebAPI using CQRS and Clean Architecture
